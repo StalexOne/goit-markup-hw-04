@@ -443,6 +443,27 @@ margin-left: 120px;}
     margin: 16px 0px 0px 0px;
     gap: 16px;
 }
+
+.footer-items {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: var(--logo-color);
+}
+
+.social-icon {
+    fill: var(--secondary-text-color);
+}
+
+.footer-items:hover,
+.footer-items:focus {
+    background-color: var(--secondary-bgcolor-networks);
+}
+
+
   /* --------------------------------------------PORTFOLIO -------------------------------------*/
 .section.portfolio {
     padding-top: 96px;
